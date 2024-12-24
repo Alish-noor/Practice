@@ -1,0 +1,116 @@
+.HELP {
+    color: rgb(10, 121, 121);
+    font-size: 40px;
+    font-family: initial;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.Guide {
+    font-family: initial;
+    color: rgb(11, 99, 99);
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 0px;
+    margin-top: auto;
+}
+
+.Guide:after {
+    position: absolute;
+    background-color: rgb(10, 121, 121);
+    height: 2px;
+    bottom: -9px;
+    transition: 0.3s;
+    content: "";
+    width: 0;
+    left: 0;
+}
+
+.Guide:hover:after {
+    color: black;
+    width: 100px;
+}
+
+.Guide:hover {
+    color: darkslategrey;
+}
+    
+.header-content{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+height: 500px;
+
+}
+.content-box{
+       color: rgb(10, 92, 92);
+    width: 700px;
+}
+.content-box h4{
+    color: rgb(12, 91, 91);
+    font-size: 39px;
+    font-family: initial;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.content-box h1{
+    color: rgb(10, 121, 121);
+    font-size: 40px;
+    font-family: initial;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.btnf{
+    color:#080808;
+    text-decoration: none;
+    border: 2px solid rgb(10, 121, 121);
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-family: initial;
+    font-weight: bolder;
+}
+.btnf:hover{
+    color: #000;
+    background-color: #fff;
+    transition: 0.5s all;
+}
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    /* background-color: #ddd; */
+}
+
+.row {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.image-section {
+    width: 30%;
+    float: left;
+}
+
+.image-section img {
+    width: 120%;
+
+}
+
+.content {
+    width: 60%;
+    float: left;
+    margin-left: 60px;
+}
+
+.content-h1 {
+    font-size: 90px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: #222;
+    font-family: initial;
+    font-weight: bolder;
+    color: rgb(10, 121, 121);
+}
+
