@@ -7,121 +7,598 @@
   <title>PORTFOLIO</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
     crossorigin="anonymous"></script>
-  <script src="jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"
+    integrity="sha512-7g5NUcH79A/d1+q+cj3KTJ31mCUPkD8f58sFEc98H5015295lT+ZBKWkaMeS6Snbu3m2VdfoW4VbSo9hOAJqYw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
-  
-  <header class="">
-
-    <nav class="navbar navbar-expand-sm bg-light ">
+  <header>
+    <nav class="navbar navbar-expand-md bg-light sticky  fixed-top  ">
       <div class="container">
-        <a href="home.html" class="navbar-brand HELP">PORTFOLIO</a>
+        <a href="index.html" class="navbar-brand HELP animated fadeInLeft">PORTFOLIO</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcollapse"><span
             class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse ms--2" id="navcollapse">
           <ul class="navbar-nav mx-md-auto float-end">
             <li class="nav-item ms-4">
-              <a href="home.html" class="nav-link  Guide">HOME</a>
+              <a href="index.html" class="nav-link Guide">HOME</a>
             </li>
-            <li class="nav-item ms-4">
-              <a href="about.html" class="nav-link Guide">ABOUT</a>
+            <li class="nav-item animated fadeInRight ms-4">
+              <a href="#about" class="nav-link Guide">ABOUT</a>
             </li>
-            <li class="nav-item ms-4">
-              <a href="contact.html" class="nav-link Guide">SERVICES</a>
+            <li class="nav-item animated fadeInRight ms-4 ">
+              <a href="#experience" class="nav-link Guide">EXPERIENCE</a>
             </li>
-            <li class="nav-item ms-4">
-              <a href="home.html" class="nav-link Guide">CONTACT</a>
+            <li class="nav-item animated fadeInRight ms-4">
+              <a href="#work" class="nav-link Guide">WORK</a>
+            </li>
+            <li class="nav-item animated fadeInRight ms-4">
+              <a href="#contact" class="nav-link Guide">CONTACT</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <div style="background-image:url(https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?cs=srgb&dl=pexels-tima-miroshnichenko-7567443.jpg&fm=jpg);">>
-    <div class=" container-fluide header-content ">
+  <div class="container-fluid rm ">
+    <div class=" header-content ">
       <div class="row">
-        <div class="col text-center">
-          <div class="content-box">
-            <h4>WELCOM</h4>
-            <h1>I'M <span class="typing">ALEESHA NOOR</span></h1>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, minus.</P>
-            <a href="#"><button type="button" class="btn btnf">DOWNLOAD CV</button></a>
+        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+          <div> <img class="rm" src="">
+            <div class="content-box">
+              <h4>WELCOME</h4>
+              <h1>I'M <span class="typing">ALEESHA NOOR</span></h1>
+              <P style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, minus.</P>
+              <a href="#"><button type="button" class="btn btnf">DOWNLOAD CV</button></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <main>
-    <div class="wrapper mt-5">
+
+
+    <div class="wrapper" data-aos="fade-down" id="about">
       <div class="row">
+        <div class="col-lg-12 col-md-6 col-sm-4 ">
           <div class="image-section">
-              <img src="https://sabimages.com/wp-content/uploads/2024/08/hijab-girl-dp-photo32.jpg"
-                  alt="">
+            <img src="https://sabimages.com/wp-content/uploads/2024/08/hijab-girl-dp-photo32.jpg" alt="">
           </div>
           <div class="content">
-              <h1 class="content-h1">About Us</h1>
-              <h3 class="content-h3">Your trusted guide to
-                  mental health & wellness</h3>
-              <p class="content-p">We are dedicated to saving lives and to building stronger families and
-                  communities.
-                  Through
-                  education, research, advocacy, and a focus on young adults ages 14 25, Active Minds is
-                  opening up
-                  the conversation about mental health and creating lasting change in the way mental
-                  health is
-                  talked
-                  about, cared for, and valued in the United States.
-                  Active Minds is a national leader for mobilizing young adults around mental health
-                  advocacy
-                  and
-                  suicide prevention.
-
-                  Headquartered in Washington, DC, Active Minds brings to mental health what no other
-                  organization can
-                  — the voice of young people who are disproportionately affected by mental illnesses and
-                  the
-                  way
-                  mental health is addressed on campuses and in society at large.
-
-                  Now in its nineteenth year, Active Minds is present in more than 1,000 schools,
-                  communities,
-                  and
-                  workplaces nationwide, including more than 500 student-led chapters. Our programs and
-                  services
-                  empower young adults to reduce the stigma surrounding mental health, create communities
-                  of
-                  support,
-                  and ultimately save lives.
-              </p>
+            <h1 class="content-h1">ABOUT</h1>
+            <p class="col-sm-12 text-center">We are dedicated to saving lives and to building stronger families and
+              communities.
+              Through
+              education, research, advocacy, and a focus on young adults ages 14 25, Active Minds is
+              opening up
+              the conversation about mental health and creating lasting change in the way mental
+              health is
+              talked
+              about, cared for, and valued in the United States.
+              Active Minds is a national leader for mobilizing young adults around mental health
+              advocacy
+              and
+              suicide prevention.
+            </p>
           </div>
+        </div>
       </div>
-  </div>
-  
-  </main>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    </div>
+    <section class="experience  mb-5" id="experience" data-aos="fade-down">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-12 col-md-12 col-sm-12 text-center d-flex align-items-center justify-content-center way-fade-up">
+            <h3 class="mySkills">My Skills</h3>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center way-fade-up">
+            <label>HTML</label>
+            <div class="progress">
+              <div data-aos="fade-right" class="progress-bar progress-color" role="progressbar" style="width: 99%"
+                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
 
-  <script>
-    var typing = new Typed(".typing", {
-      strings: [ " DEVELOAPER", " DESIGNER", " STUDENT"],
-      typeSpeed: 100,
-      backSpeed: 100,
-      loop: true
-    });
-  </script>
+            <label>Css</label>
+            <div class="progress">
+              <div data-aos="fade-right" class="progress-bar progress-color" role="progressbar" style="width: 95%"
+                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
-    integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <label>Javascript/Jquery</label>
+            <div class="progress">
+              <div data-aos="fade-right" class="progress-bar progress-color" role="progressbar" style="width: 85%"
+                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+
+            <label>Bootstrap</label>
+            <div class="progress">
+              <div data-aos="fade-right" class="progress-bar progress-color" role="progressbar" style="width: 99%"
+                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">99%</div>
+            </div>
+
+            <label>Figma</label>
+            <div class="progress">
+              <div data-aos="fade-right" class="progress-bar progress-color" role="progressbar" style="width: 70%"
+                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+
+            <label>SEO</label>
+            <div class="progress">
+              <div data-aos="fade-right" class="progress-bar progress-color" role="progressbar" style="width: 65%"
+                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services bg-sec r-p " id="services" data-aos="fade-down">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col" data-aos="flip-left">
+              <h2>My Services</h2>
+              <p>What we offer to our Clients.</p>
+            </div>
+          </div>
+        </div>
+        <!-- cards -->
+        <div class="row text-center way-fade-up" data-aos="fade-down">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <i class="fab fa-apple"></i>
+              </div>
+
+              <div class="card-body">
+                <h5 class="card-title">App Development</h5>
+                <div class="service-border"></div>
+                <p class="card-text">Having a mobile app for the business has become a must in today’s world. We build
+                  hybrid mobile apps that run across Android, iOS, windows.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-down">
+            <div class="card">
+              <div class="card-header">
+                <i class="fab fa-opencart"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">E-Commerce Solutions</h5>
+                <div class="service-border"></div>
+                <p class="card-text">Ecommerce Web Development. E-commerce web development is developing a website
+                  with
+                  online payment gateway system. </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-down">
+            <div class="card">
+              <div class="card-header">
+                <i class="fas fa-desktop"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Website Development</h5>
+                <div class="service-border"></div>
+                <p class="card-text">Website design and development is the most important and first step in online
+                  branding and customer acquizition. It creates value and trust.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center way-fade-up" data-aos="fade-down">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-header">
+                <i class="far fa-edit"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">SEO Services</h5>
+                <div class="service-border"></div>
+                <p class="card-text">SEO (Search engine Optimization) has become an inseparable part of web
+                  development.
+                  Developing a website and not doing digital marketing is like staring a business and not telling
+                  anyone.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-down">
+            <div class="card">
+              <div class="card-header">
+                <i class="fab fa-wordpress-simple"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Wordpress Themes</h5>
+                <div class="service-border"></div>
+                <p class="card-text">Wordpress theme development from scratch.web development is developing a website
+                  with online payment gateway system.custom theme development and plugins development. </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12" data-aos="fade-down">
+            <div class="card">
+              <div class="card-header">
+                <i class="fab fa-joomla"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">joomla Development</h5>
+                <div class="service-border"></div>
+                <p class="card-text">joomla design and development is the most important and first step in online
+                  branding and customer acquizition. It creates value and trust. we also develop custom theme as per
+                  your requirement</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hire r-p" id="hire" data-aos="fade-down">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h3 class="mb-4">I am Available for Freelance</h3>
+            <button type="button" class="btn btnf"><a href="#"
+                style="text-decoration: none; color: rgb(32, 27, 27);">Hire Me</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimony -->
+
+    <section class="testimony r-p  bg-sec" id="testimony">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-12 col-md-6 col-sm-4 ">
+            <h2>Testimony</h2>
+            <p>What people say.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-6 col-sm-4">
+            <div class="owl-carousel owl-theme">
+
+              <div class="item">
+                <div class="test-item text-center">
+                  <i class="fas fa-quote-left"></i>
+                  <div><img
+                      src="https://images.pexels.com/photos/675920/pexels-photo-675920.jpeg?cs=srgb&dl=pexels-minan1398-675920.jpg&fm=jpg"
+                      class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+                    fugiat quidem hic dicta incidunt.</p>
+                  <p class="test-name">Jessi Walter, Ceo Murno.com</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="test-item text-center">
+                  <i class="fas fa-quote-left "></i>
+                  <div><img
+                      src="https://img.freepik.com/free-photo/portrait-young-teen-tourist-visiting-great-wall-china_23-2151261881.jpg"
+                      class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Labore fugiat quidem hic dicta incidunt.</p>
+                  <p class="test-name">Caron Smith, Ceo Lopra.com</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="test-item text-center">
+                  <i class="fas fa-quote-left "></i>
+                  <div><img
+                      src="https://img.freepik.com/free-photo/girl-park_1157-7636.jpg?t=st=1735049968~exp=1735053568~hmac=a635d108636c6219ed7937fad759004ad957bbaec4f44cf91123a2107c1d2c9d&w=360"
+                      class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+                    fugiat quidem hic dicta incidunt.</p>
+                  <p class="test-name">Alan Harper, Ceo thm.com</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="test-item text-center">
+                  <i class="fas fa-quote-left "></i>
+                  <div><img
+                      src="https://img.freepik.com/free-photo/mother-son-spend-time-outdoors-park_1328-1895.jpg?t=st=1735050009~exp=1735053609~hmac=4ba60dae8b6e67b7ac95b57107249fec810a790e480ef21a4821fe43c66ae95b&w=360"
+                      class="mx-auto rounded-circle test-img"></div>
+                  <p class="text-muted font-italic mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Labore fugiat quidem hic dicta incidunt.</p>
+                  <p class="test-name">Jessi Walter, Ceo Murno.com</p>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!--  Work -->
+    <div class="work  r-p" id="work" data-aos="fade-down">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col" data-aos="fade-down">
+            <h2>Work</h2>
+            <p>What i have created.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 mx-auto mt-1" data-aos="fade-down">
+            <button class="btn btnf" data-filter="all">All</button>
+            <button class="btn btnf" data-filter="1">Web</button>
+            <button class="btn btnf" data-filter="2">SEO</button>
+            <button class="btn btnf" data-filter="3">Graphics</button>
+            <button class="btn btnf" data-filter="4">Apps</button>
+          </div>
+        </div>
+        <div class="container ">
+          <div class="row filter-container mx-auto img-loaded">
+
+            <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper " data-category="1" data-aos="fade-down">
+              <div>
+                <img
+                  src="https://ewm.swiss/application/files/5316/1553/3197/Beautiful_Website_EWM_SA_Digital_Agency_Geneva.jpg"
+                  class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper " data-category="2" data-aos="fade-down">
+              <div>
+                <img
+                  src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfFr3BgtJw_Yuw3zc1fapLPwjuW0nvyUnqPupu_U-vS8dLroyRMpEBDOeEY2ttPEfsGBg&usqp=CAU  "
+                  class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper " data-category="3" data-aos="fade-down">
+              <div>
+                <img src="  https://cenit.edu.pk/wp-content/uploads/2023/01/Graphic-designing-course-in-rawalpindi.png"
+                  class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper mt-5 " data-category="4"
+              data-aos="fade-down">
+              <div>
+                <img
+                  src="https://media.licdn.com/dms/image/D5612AQFRbhosLvdDcA/article-cover_image-shrink_720_1280/0/1704344291475?e=2147483647&v=beta&t=f3pF7-UEbIgvp_6aZKAMkxVsV41iQHO-Ygv4qn2Djm0"
+                  class="img-fluid" alt="">
+              </div>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper " data-category="4" data-aos="fade-down">
+              <div>
+                <img
+                  src="https://cdn.prod.website-files.com/5d123a0e13543973a9665271/656a0ae48ac17e2f9ea07997_mobilehero3-min.webp"
+                  class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper mt-2 " data-category="4"
+              data-aos="fade-down">
+              <div>
+                <img
+                  src="https://cdn.prod.website-files.com/5d123a0e13543973a9665271/5dca7cdb10c6923128774bba_video-teaser-thumbnail.png"
+                  class="img-fluid" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Contact -->
+    <section class="contact r-p mt-5" id="contact">
+      <div class="container text-center">
+        <div class="row">
+          <div class=" way-fade-left" data-aos="fade-down">
+            <h2>Contact Us</h2>
+            <p>Feel free to contact me.</p>
+          </div>
+        </div>
+        <div class="row  way-fade-left ">
+          <div class="col-md-4 col-lg-4 col-sm-12" data-aos="fade-down">
+            <div class="r-icon"> <i class="fas fa-mobile-alt"></i></div>
+            <div class="text-center">
+              <h5>Call Us</h5>
+              <p>1-800-983-233</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-12" data-aos="fade-down">
+            <div class="r-icon"> <i class="far fa-envelope"></i></div>
+            <div class="text-center">
+              <h5>Email</h5>
+              <p class="text-muted">contact@gmail.com</p>
+
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="r-icon"> <i class="fas fa-map-pin"></i></div>
+            <div class="text-center">
+              <h5>Visit Us</h5>
+              <p class="text-muted">923 W Crooked Stick Dr,AZ, 85222</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 d-flex">
+        <div class="col-md-12 col-lg-12 col-sm-12">
+          <form>
+            <div class="form-group mt-3 col-lg-12 col-md-12 col-sm-12" style="display: inline-flex;">
+              <div class="form-group w-100">
+
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group w-100" style="padding-left: 50px;">
+
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group mt-3 ">
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" rows="7" placeholder="Your Message" style="resize:none;"></textarea>
+            </div>
+
+            <button type="submit" class="btn btnf mt-4">Submit</button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+    <!-- footer -->
+    <footer class=" mt">
+      <div class="container-fluid py-2 bg-black text-light">
+        <div class="row py-5 gy-3">
+          <div class="col-12 col-md-4">
+            <div class="ps-3">
+              <a href="" class="text-decoration-none">
+                <h3 class="display-6 fw-bold text-white">HELP</h3>
+
+                <ul style="color: aliceblue; font-family: initial;">
+                  <li>CONTACT</li>
+                  <li>MY ACCOUNT</li>
+                  <li>ALL POST</li>
+
+
+                </ul>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="ps-3">
+              <a href="" class="text-decoration-none">
+                <h3 class="display-6 fw-bold" style="color: aliceblue;font-family: initial; ">LEARN ABOUT
+                </h3>
+
+                <ul style="color: aliceblue;font-family: initial; ">
+                  <li>FAQ</li>
+                  <li>ABOUT US</li>
+                  <li>CERTIFICATION OF ANALYSIS</li>
+                </ul>
+
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="ps-3">
+              <a href="" class="text-decoration-none">
+                <h3 class="display-6 fw-bold" style="color: aliceblue;font-family: initial; ">VISIT</h3>
+                <ul style="color: aliceblue; font-family: initial;">
+                  <li>WANT TO VISIT OUR WATCH WEB</li>
+                  <li>YOU CAN US ON help.pk22@gmail.com</li>
+                  <li>BE PART OF THE SELF CARE FAMILY </li>
+
+                </ul>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-12 col-sm-12 bg-black text-white text-center">
+        <p>Copyright &copy;2022 Designed by Alisha</p>
+        <a href="" class="font">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+      integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/filterizr/2.2.4/jquery.filterizr.min.js"
+      integrity="sha512-7g5NUcH79A/d1+q+cj3KTJ31mCUPkD8f58sFEc98H5015295lT+ZBKWkaMeS6Snbu3m2VdfoW4VbSo9hOAJqYw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <script>
+      var typing = new Typed(".typing", {
+        strings: [" DEVELOAPER", " DESIGNER", " STUDENT"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+      });
+      $(document).ready(function () {
+        $(window).on('load', function () {
+          $('.preloader').addClass('complete')
+        });
+
+        $(window).on('scroll', function () {
+          var scroll = $(window).scrollTop();
+          console.log(scroll);
+          if (scroll >= 50) {
+            $(".sticky").addClass("stickyadd");
+          } else {
+            $(".sticky").removeClass("stickyadd");
+          }
+        });
+      });
+
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        items: 1,
+        animateIn: "fadeInRight"
+
+      });
+
+
+      var filterizd = $('.filter-container').filterizr({
+        animationDuration: .5,
+
+      });
+
+    </script>
+
 
 </body>
 
